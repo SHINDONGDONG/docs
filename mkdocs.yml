@@ -1,12 +1,12 @@
 # Project information
-site_name: "ハッピーな人生abcd"
-site_url: "https://www.naver.com"
-site_description: "ハッピーな人生を送るための情報を提供するブログ"
-site_author: "shin"
+site_name: "Shin Document"
+site_url: https://github.com/SHINDONGDONG/docs
+site_description: "Shin Document"
+site_author: "Shin Mincheol"
 # site_version: "0.1.0"
 copyright: "22223 shin"
-repo_url: https://www.naver.com
-repo_name: Poetry Project Good Life
+repo_url: https://github.com/SHINDONGDONG/docs
+repo_name: docs
 
 # Documentation and theme
 docs_dir: "docs"
@@ -46,22 +46,6 @@ theme:
     - search.share
     - navigation.expand
     - navigation.indexes
-# plugins:
-#   - search
-#   - git-revision-date-localized:
-#       type: timeago
-#       fallback_to_build_date: true
-#   - git-authors
-#   - mkdocs-git-committers-plugin
-#   - mkdocs-git-revision-date-plugin
-#   - mkdocs-comments-plugin:
-#       provider: utterances
-#       repo: yourname/your-repo
-
-# plugins:
-#   - swagger-ui-tag:
-#       spec_dir: "docs/api"
-#       spec_file: "openapi.yaml"
 
 # Extensions
 markdown_extensions:
@@ -81,7 +65,7 @@ nav:
   - 基本設計:
       - abcd:
           - bbb: 100_/presentation.md
-          - 사람: 100_/presentatdion.md
+          - 사람: 100_/human.md
       - dddee:
           - 사람: 100_/presentation.md
   # - Contact: contact.md
