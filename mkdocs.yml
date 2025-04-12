@@ -1,0 +1,87 @@
+# Project information
+site_name: "ハッピーな人生abcd"
+site_url: "https://www.naver.com"
+site_description: "ハッピーな人生を送るための情報を提供するブログ"
+site_author: "shin"
+# site_version: "0.1.0"
+copyright: "22223 shin"
+repo_url: https://www.naver.com
+repo_name: Poetry Project Good Life
+
+# Documentation and theme
+docs_dir: "docs"
+theme:
+  name: material
+  language: "ko"
+  palette:
+    - scheme: default
+      primary: teal
+      accent: skyblue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+  font:
+    text: Noto Sans KR
+    code: Roboto Mono
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil
+  edit_uri: edit/main/docs/ # GitHub 편집 버튼용
+  features:
+    - navigation.tabs # 탭 기능
+    - navigation.top # 상단 고정
+    # - navigation.sections
+    # - toc.integrate # 목차 통합
+    - content.code.annotate
+    - content.code.copy
+    - content.action.edit
+    - content.action.view
+    - search.highlight
+    - search.share
+    - navigation.expand
+    - navigation.indexes
+# plugins:
+#   - search
+#   - git-revision-date-localized:
+#       type: timeago
+#       fallback_to_build_date: true
+#   - git-authors
+#   - mkdocs-git-committers-plugin
+#   - mkdocs-git-revision-date-plugin
+#   - mkdocs-comments-plugin:
+#       provider: utterances
+#       repo: yourname/your-repo
+
+# plugins:
+#   - swagger-ui-tag:
+#       spec_dir: "docs/api"
+#       spec_file: "openapi.yaml"
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: "#"
+      baselevel: 1
+      separator: "-"
+
+nav:
+  - Home: index.md
+  # - Blog:
+  # - Blog:
+  # - Post 1:
+  # - Post 2:
+  # - About:
+  - 基本設計:
+      - abcd:
+          - bbb: 100_/presentation.md
+          - 사람: 100_/presentatdion.md
+      - dddee:
+          - 사람: 100_/presentation.md
+  # - Contact: contact.md
