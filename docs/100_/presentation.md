@@ -18,30 +18,3 @@
   "password": "1234"
 }
 ```
-
-### 🔸 요청
-
-```json
-{
-  "email": "user@example.com",
-  "password": "1234"
-}
-```
-
-### 🔸 요청
-
-```json
-{
-  "email": "user@example.com",
-  "password": "1234"
-}
-```
-
-### 🔸 요청
-
-```json
-{
-  "email": "user@example.com",
-  "password": "1234"
-}
-```
